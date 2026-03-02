@@ -24,7 +24,6 @@ A serverless Generative AI API that generates 200-word blog posts using **Amazon
 
 ## 📥 Request Format
 
-```json
 {
   "blog_topic": "Generative AI in Healthcare"
 }
