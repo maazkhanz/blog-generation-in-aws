@@ -32,7 +32,8 @@ A serverless Generative AI API that generates 200-word blog posts using **Amazon
 Generated blog is saved to:
 
 s3://awsbedrockmaaz/blog-output/<timestamp>.txt
-🔐 Required IAM Permissions
+
+## 🔐 Required IAM Permissions
 
 bedrock:InvokeModel
 
@@ -40,9 +41,10 @@ s3:PutObject
 
 CloudWatch logging permissions
 
-📦 requirements.txt
+## 📦 requirements.txt
 boto3
 botocore
-🌎 Region
+
+## 🌎 Region
 
 ca-central-1
